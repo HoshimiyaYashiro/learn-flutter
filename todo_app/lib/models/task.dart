@@ -1,20 +1,20 @@
 class Task {
-  int? id;
+  late String id;
   String? title;
   String? note;
-  int? isCompleted;
+  late bool isCompleted;
   String? date;
-  String? startTime;
-  String? endTime;
+  DateTime? startTime;
+  DateTime? endTime;
   int? color;
   int? remind;
   String? repeat;
 
   Task({
-    this.id,
+    required this.id,
     this.title,
     this.note,
-    this.isCompleted,
+    required this.isCompleted,
     this.date,
     this.startTime,
     this.endTime,

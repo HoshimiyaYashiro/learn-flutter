@@ -9,11 +9,11 @@ Color outlineColor = const Color(0xffD6D6D6);
 Color descriptionColor = const Color(0xff565656);
 
 double verticalPadding(BuildContext context) {
-  return MediaQuery.of(context).size.height / 20;
+  return MediaQuery.of(context).size.height / 60;
 }
 
 double horizontalPadding(BuildContext context) {
-  return MediaQuery.of(context).size.width / 20;
+  return MediaQuery.of(context).size.width / 60;
 }
 
 EdgeInsets textFieldPadding(BuildContext context) {

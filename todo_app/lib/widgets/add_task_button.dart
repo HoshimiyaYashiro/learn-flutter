@@ -17,7 +17,7 @@ class AddTaskButton extends StatelessWidget {
       shape: const CircleBorder(),
       child: SvgPicture.asset(
         "assets/icons/plus.svg",
-        height: MediaQuery.of(context).size.height * 0.02,
+        height: MediaQuery.of(context).size.height * 0.03,
       ),
     );
   }
